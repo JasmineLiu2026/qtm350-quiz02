@@ -1,0 +1,24 @@
+---
+title: "Analysis on Life Expectancy and GDP per capita"
+---
+
+We will be analyzing the relationship between life expectancy and GDP per capita.
+
+```{python}
+#| echo: false
+#| eval: true
+#| message: false
+
+import matplotlib.pyplot as plt
+import pandas as pd
+
+dataset = pd.read_csv("/Users/jasmineliu/qtm350-quiz02/gapminder.csv")
+
+x = dataset["life_expectancy"]
+y = dataset["gdp_per_capita"]
+plt.plot(x,y, 'bo')
+plt.xlabel("Life expectancy")
+plt.ylabel("GDP per capita")
+plt.title("Life expectancy VS GDP per capita")
+plt.show()
+```

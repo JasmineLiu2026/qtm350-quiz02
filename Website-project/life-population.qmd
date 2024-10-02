@@ -1,0 +1,26 @@
+---
+title: "Analysis on Life Expectancy and Population"
+---
+
+We will be analyzing the relationship between life expectancy and Population. To visualize the distribution of population among each life expectancy, we compute the following:
+
+```{python}
+#| echo: false
+#| eval: true
+#| message: false
+
+import matplotlib.pyplot as plt
+import pandas as pd
+
+dataset = pd.read_csv("/Users/jasmineliu/qtm350-quiz02/gapminder.csv")
+dataset.head()
+
+x = dataset["life_expectancy"]
+y = dataset["population_millions"]
+
+plt.bar(x,y)
+plt.xlabel("Life expectancy")
+plt.ylabel("Population")
+plt.title("Life expectancy VS Population")
+plt.show()
+```

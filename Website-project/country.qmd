@@ -1,0 +1,49 @@
+---
+title: "Analysis on Life Expectancy in Different Countries"
+---
+
+We will be analyzing the relationship between life expectancy, GDP per capita, and population in America using the gapminder dataset. 
+
+```{python}
+#| echo: false
+#| eval: true
+#| message: false
+
+import matplotlib.pyplot as plt
+import pandas as pd
+
+dataset = pd.read_csv("/Users/jasmineliu/qtm350-quiz02/gapminder.csv")
+dataset.head()
+
+taiwan = dataset[dataset["country"]=="Taiwan"]
+
+x = taiwan["year"]
+y = taiwan["life_expectancy"]
+
+plt.bar(x, y, label="Life Expectancy", color='blue')
+
+plt.xlabel("Year")
+plt.ylabel("Life expectancy")
+plt.title("Life expectancy over Years")
+plt.show()
+
+y2 = taiwan["population_millions"]
+
+plt.bar(x, y2, label="Population", color='blue')
+
+plt.xlabel("Year")
+plt.ylabel("Population")
+plt.title("Populatio over Years")
+plt.show()
+
+y3 = taiwan["gdp_per_capita"]
+
+plt.bar(x, y3, label="GDP", color='blue')
+
+plt.xlabel("Year")
+plt.ylabel("GDP per capita")
+plt.title("GDP per capita over Years")
+plt.show()
+
+```
+

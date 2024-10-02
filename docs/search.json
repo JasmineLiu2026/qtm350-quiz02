@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "life-population.html",
+    "href": "life-population.html",
+    "title": "Analysis on Life Expectancy and Population",
+    "section": "",
+    "text": "We will be analyzing the relationship between life expectancy and Population. To visualize the distribution of population among each life expectancy, we compute the following:\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "life-gdp.html",
+    "href": "life-gdp.html",
+    "title": "Analysis on Life Expectancy and GDP per capita",
+    "section": "",
+    "text": "We will be analyzing the relationship between life expectancy and GDP per capita.\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "country.html",
+    "href": "country.html",
+    "title": "Analysis on Life Expectancy in Different Countries",
+    "section": "",
+    "text": "We will be analyzing the relationship between life expectancy, GDP per capita, and population in America using the gapminder dataset.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Analysis Using Gapminder Dataset",
+    "section": "",
+    "text": "This dataset includes 142 countries and for each country, there are values for life expectancy, GDP per capita, and population, every five years, from 1952 to 2007.\nYou can find a description of the dataset here: https://cran.r-project.org/web/packages/gapminder/index.html\nYou can navigate to other pages here: * Life Expectancy & GDP * Life Expectancy & Population * Analysis on Taiwan\n\n\n\n Back to top"
+  }
+]

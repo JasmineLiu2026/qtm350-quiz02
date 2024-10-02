@@ -1,0 +1,12 @@
+---
+title: "Analysis Using Gapminder Dataset"
+---
+
+This dataset includes 142 countries and for each country, there are values for life expectancy, GDP per capita, and population, every five years, from 1952 to 2007.
+
+You can find a description of the dataset here: https://cran.r-project.org/web/packages/gapminder/index.html
+
+You can navigate to other pages here:
+* [Life Expectancy & GDP](life-gdp.qmd) 
+* [Life Expectancy & Population](life-population.qmd)
+* [Analysis on Taiwan](country.qmd)

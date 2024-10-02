@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "QTM350"
+  page-navigation: true
+  back-to-top-navigation: true
+  reader-mode: true
+  repo-url: https://github.com/JasmineLiu2026/qtm350-quiz02/website
+  repo-actions: [issue, source]
+  repo-branch: gh-pages
+  
+  navbar:
+    pinned: true
+    tools:
+      - icon: github
+        href: https://github.com/JasmineLiu2026/qtm350-quiz02
+    left:
+      - href: index.qmd
+        text: Home
+      - href: life-gdp.qmd
+        text: Life Expectancy and GDP per Capita
+      - href: life-population.qmd
+        text: Life Expectancy and Population
+      - href: country.qmd
+        text: Country Analysis
+      - href: LICENSE.html
+        text: " "
+
+format:
+  html:
+    theme: minty
+    css: styles.css
+    toc: true
